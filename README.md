@@ -1,4 +1,16 @@
-# AudioScope · 声波观测台
+<h1 align="center">AudioScope · 声波观测台</h1>
+
+<p align="center">
+  <b>本地音乐播放器 + 音频可视化</b> · Windows 64 位 · 免安装
+</p>
+
+<h2 align="center">👇 <a href="https://github.com/suis077/AudioScope/raw/main/dist/AudioScope.exe">点此直接下载 AudioScope.exe</a> 👇</h2>
+
+<p align="center">约 89 MB ｜ 下载后双击即可运行 ｜ 不需要安装 Python</p>
+
+> **找不到下载按钮？** 文件就在本仓库的 [`dist/`](https://github.com/suis077/AudioScope/tree/main/dist) 目录里，点进 `AudioScope.exe` 后选择 **Download** 即可。
+
+---
 
 一个用 **Python + PySide6** 编写的本地音乐播放器与音频可视化工具。雪白极简风格，带一个会流动的沉浸式播放页。
 
