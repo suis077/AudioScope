@@ -43,6 +43,16 @@
 
 ## 快速开始
 
+### 方式一：直接下载（免安装，推荐普通用户）
+
+下载仓库里的 [`dist/AudioScope.exe`](dist/AudioScope.exe) 双击即可运行，**不需要装 Python 或任何依赖**。
+
+- Windows 64 位，单文件约 89 MB
+- 首次启动稍慢（需要自解压，约 3 秒），之后正常
+- 首次运行会在 exe 同级目录生成 `audiostore.json`（设置与最近播放）和 `audiocache/`（歌词与封面缓存），可以直接删掉，程序会重建
+
+### 方式二：从源码运行
+
 ```bash
 # 1) 安装依赖
 pip install -r requirements.txt

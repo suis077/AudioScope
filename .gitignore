@@ -7,9 +7,12 @@ venv/
 env/
 
 # ---------- PyInstaller 构建产物 ----------
+# dist/ 只放行单文件版 exe（给直接下载用的），其余一律忽略：
+# 注意 dist/ 里运行 exe 后还会生成 audiostore.json / audiocache/，绝对不能进仓库
 build/
 build_dir/
-dist/
+dist/*
+!dist/AudioScope.exe
 dist_onedir/
 *.manifest
 
