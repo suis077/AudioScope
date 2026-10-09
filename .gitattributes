@@ -1,0 +1,5 @@
+# 统一换行符处理，避免 Windows 上 CRLF 反复产生 diff
+* text=auto
+*.ico binary
+*.png binary
+*.jpg binary
